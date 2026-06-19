@@ -111,3 +111,17 @@ Canonical-domain config:
 ## Backup
 
 Backup archives are stored in `/home/webdev/backups/`.
+
+## 2026-06-20 Follow-up Revisions
+
+- Unified homepage, service detail page, and footer page menu labels to `플랫폼`, `서비스`, `앱다운로드`, `도입문의`.
+- Added dedicated footer pages for company, privacy policy, terms, support, and admin access.
+- Removed unneeded homepage hero buttons, trust chips, flow cards, feature cards, and app-screen section.
+- Updated service detail page CTAs based on review:
+  - Memory Care bottom CTA changed to `도입문의`.
+  - Memora top `도입문의` removed; bottom `도입문의` restored.
+  - VoiceShield top `도입문의` removed; bottom `도입문의` restored.
+  - VoiceLock top `서비스 목록` removed while keeping bottom `서비스 목록`.
+  - FamilyCall top `지자체 도입 문의` removed.
+- Removed `URL 라우트` and `API 예시` cards from Memora and VoiceShield detail pages.
+- Full follow-up log: `WORK_LOG_20260620_SERVICE_PAGE_REVISIONS.md`.
