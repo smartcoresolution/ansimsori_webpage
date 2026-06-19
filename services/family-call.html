@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>안심소리 가족콜 | ANSIMSORI AI</title><link rel="stylesheet" href="../styles.css" /></head>
+  <body class="service-page">
+    <header class="site-header"><a class="brand" href="../index.html#top"><span class="brand-wave" aria-hidden="true"></span><span>Ansimsori AI</span></a><button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="주요 메뉴"><a href="../index.html#platform">플랫폼 소개</a><a href="../index.html#service">서비스</a><a href="../index.html#download">앱 다운로드</a><a href="../index.html#notice">홍보센터</a><a href="../index.html#faq">고객지원</a><a href="../index.html#contact">제휴문의</a></nav><a class="header-cta" href="../index.html#contact">도입 문의</a></header>
+    <main>
+      <section class="service-hero teal"><div class="service-hero-inner"><div><p class="eyebrow">ANSIMSORI FamilyCall</p><h1>안심소리 가족콜<strong>가족 목소리도 한 번 더 확인하세요</strong></h1><p>가족의 목소리를 사칭한 보이스피싱 전화를 탐지하고, 어르신과 보호자에게 위험을 알려주는 AI 통화 보호 앱입니다.</p><div class="service-hero-actions"><a class="button primary" href="../index.html#download">앱 다운로드</a><a class="button secondary" href="../index.html#contact">지자체 도입 문의</a></div></div><aside class="service-visual-card"><span class="small-icon">☎</span><dl><div><dt>기능 설명명</dt><dd>AI 가족사칭 보이스피싱 차단 앱</dd></div><div><dt>서브도메인</dt><dd>call.ansimsori.ai</dd></div><div><dt>UI 원칙</dt><dd>큰 글씨 · 큰 버튼 · 짧은 문장</dd></div></dl></aside></div></section>
+      <section class="service-content"><div class="spec-grid">
+        <article class="spec-block wide"><h2>서비스 개요</h2><p>자녀, 배우자, 손자녀 등 가족 음성을 미리 등록해 두고, 통화 중 가족 사칭이 의심되는 음성이 감지되면 어르신 화면과 보호자 앱에 경고를 제공합니다.</p><p class="safe-note">가족 음성은 동의 없이 등록하거나 제3자에게 제공해서는 안 됩니다. 음성 등록 목적, 이용 범위, 보관 기간, 삭제 방법을 확인하고 동의해야 합니다.</p></article>
+        <article class="spec-block"><h2>주요 사용자</h2><table class="spec-table"><tr><th>어르신</th><td>가족 사칭 전화로부터 보호</td></tr><tr><th>보호자</th><td>부모님의 의심 통화 알림 수신</td></tr><tr><th>지자체</th><td>고령자 보이스피싱 예방 사업</td></tr><tr><th>금융기관·통신사</th><td>고위험 고객 통화 보호와 AI 통화 보안 연계</td></tr></table></article>
+        <article class="spec-block"><h2>핵심 기능</h2><h3>가족 음성 등록</h3><ul><li>가족별 이름, 관계, 연락처 저장</li><li>등록 음성 동의 확인과 재등록</li></ul><h3>통화 중 위험 감지</h3><ul><li>가족 등록 음성과 유사도 분석</li><li>합성음 가능성, 금전 요구 문장, 긴급 상황 조작 문장 감지</li><li>통화 패턴 이상 여부 확인</li></ul></article>
+        <article class="spec-block"><h2>어르신 경고 문구</h2><ul><li>잠깐만요. 가족 목소리인지 다시 확인이 필요합니다.</li><li>돈을 보내기 전, 가족에게 다시 전화해 주세요.</li><li>보호자에게 알림을 보냈습니다.</li><li>모르는 사람이 돈을 요구하면 바로 끊고 가족에게 확인하세요.</li></ul></article>
+        <article class="spec-block"><h2>보호자 알림</h2><ul><li>부모님에게 가족 사칭 의심 전화가 감지되었습니다.</li><li>금전 요구 가능성이 있는 통화가 감지되었습니다.</li><li>지금 부모님께 확인 전화를 해 주세요.</li></ul><h3>긴급 연결</h3><ul><li>보호자 바로 전화, 가족 단체 알림</li><li>경찰 신고 안내, 금융기관 지급정지 안내</li><li>통화 후 리포트 제공</li></ul></article>
+        <article class="spec-block"><h2>화면 구성</h2><h3>어르신 앱</h3><ul><li>홈, 전화 보호 상태, 가족 목록</li><li>의심 전화 알림, 긴급 도움, 쉬운 설정</li></ul><h3>보호자·기관</h3><ul><li>부모님 현황, 위험 알림, 가족 음성 관리</li><li>통화 리포트, 원격 설정, 신고 안내</li><li>대상자 관리, 위험 통계, 캠페인 관리</li></ul></article>
+        <article class="spec-block"><h2>URL·API</h2><pre class="code-list">/services/family-call
+/app/family-call
+/app/family-call/family-voices
+/app/family-call/alerts
+/app/family-call/emergency
+/app/family-call/settings
+
+POST /api/family-call/family-voices
+GET  /api/family-call/family-voices/:seniorUserId
+POST /api/family-call/analyze-call
+GET  /api/family-call/alerts/:seniorUserId
+POST /api/family-call/guardian-notifications</pre></article>
+        <article class="spec-block wide"><h2>컴포넌트와 데이터 모델</h2><p>FamilyVoiceRegister, CallRiskAlert, SeniorModePanel, GuardianNotificationList, EmergencyContactCard, PhishingGuide, CallReportCard를 사용합니다.</p><pre class="code-list">type FamilyVoice = { name, relation, voiceEmbeddingId, consentStatus }
+type CallRiskEvent = { voiceSimilarity, syntheticVoiceProbability, phishingKeywordScore, riskLevel, alertSentToGuardian, summary }</pre><div class="service-bottom-nav"><a class="button secondary" href="../index.html#service">서비스 목록</a><a class="button primary" href="../index.html#contact">도입 문의</a></div></article>
+      </div></section>
+    </main><script src="../script.js"></script>
+  </body>
+</html>
