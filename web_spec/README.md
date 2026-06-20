@@ -24,7 +24,7 @@
    - ANSIMSORI MemoryCare
 
 3. `02_ansimsori_memora.md`
-   - 안심소리 메모라
+   - 안심소리 회상노트
    - ANSIMSORI MemoraVoice
 
 4. `03_ansimsori_voice_shield.md`

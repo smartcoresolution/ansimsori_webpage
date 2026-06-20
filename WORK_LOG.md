@@ -13,7 +13,7 @@
 - `styles.css`: desktop, tablet, mobile styling
 - `script.js`: mobile menu and FAQ interactions
 - `services/memory-care.html`: 안심소리 기억케어 detail page
-- `services/memora.html`: 안심소리 메모라 detail page
+- `services/memora.html`: 안심소리 회상노트 detail page
 - `services/voice-shield.html`: 안심소리 보이스쉴드 detail page
 - `services/voice-lock.html`: 안심소리 보이스락 detail page
 - `services/family-call.html`: 안심소리 가족콜 detail page
@@ -40,7 +40,7 @@ Applied items:
 - Secondary slogan: 목소리로 돌보고, 기억하고, 보호합니다.
 - Services:
   - 안심소리 기억케어 / ANSIMSORI MemoryCare
-  - 안심소리 메모라 / ANSIMSORI MemoraVoice
+  - 안심소리 회상노트 / ANSIMSORI MemoraVoice
   - 안심소리 보이스쉴드 / ANSIMSORI VoiceShield
   - 안심소리 보이스락 / ANSIMSORI VoiceLock
   - 안심소리 가족콜 / ANSIMSORI FamilyCall
